@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.choices{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    /* border: 2px solid black; */
+}
+.choice{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 20px rgb(136, 230, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    border-radius: 50%;
+}
+
+.choice:hover{
+    cursor: pointer;
+    /* background-color: #081b31; */
+    border: 2.5px solid #081b31;
+}
+
+.choice i{
+    font-size: 70px;
+    color: white;
+}
+.one{ 
+    background-color: rgb(210, 73, 73);
+}
+.two{
+    background-color: rgb(175, 58, 126);
+}
+.three{
+    background-color: rgb(105, 58, 150);
+}
+
+.score-board{
+    height: 100px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+
+.score{
+    font-size: 20px;
+    height: 50%;
+    width: 70px;
+    /* background-color: blueviolet; */
+    /* display: flex; */
+}
+
+.msg-container{
+    height: 100px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-container > p{
+    height: 50%;
+    /* width: 400px; */
+    min-width:auto;
+    width: 400px;;
+    background-color: #ae1a1a;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #ee5904;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+}
+
+.menuinner >div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 130px;
+    background-color: #ee5904;
+    gap: 100px;
+}
+.menuinner > div >i {
+    font-size: 60px;
+    color: white;
+}
+.heading{
+    height: 300px;
+    width: 100px;
+    background-color: #ee5904;
+}
+.heading >h3{
+    height: 40%;
+    text-align: center;
+}
+
+.menuinner > .one{ 
+    background-color: rgb(210, 73, 73);
+}
+.menuinner >  .two{
+    background-color: rgb(175, 58, 126);
+}
+.menuinner > .three{
+    background-color: rgb(105, 58, 150);
+}
+
+#sto {
+    padding-top: 35px;
+}
+#papp{
+    padding-top: 20px;
+}
+.heading:hover{
+    color: white;
+}
